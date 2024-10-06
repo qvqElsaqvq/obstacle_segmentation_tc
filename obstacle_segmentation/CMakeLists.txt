@@ -8,7 +8,6 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(rclcpp_lifecycle REQUIRED)
 find_package(pcl_ros REQUIRED)
 find_package(pcl_conversions REQUIRED)
 find_package(sensor_msgs REQUIRED)
@@ -28,7 +27,7 @@ endif()
 
 ament_package()
 add_executable(obstacle_segmentation_node src/obstacle_segmentation_node.cpp)
-ament_target_dependencies(obstacle_segmentation_node rclcpp pcl_ros pcl_conversions sensor_msgs rclcpp_lifecycle)
+ament_target_dependencies(obstacle_segmentation_node rclcpp pcl_ros pcl_conversions sensor_msgs)
 install(TARGETS
         obstacle_segmentation_node
         DESTINATION lib/${PROJECT_NAME})

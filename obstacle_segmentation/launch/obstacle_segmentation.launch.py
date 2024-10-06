@@ -1,6 +1,5 @@
 # 导入库
 from launch import LaunchDescription
-from launch_ros.actions import LifecycleNode
 from ament_index_python.packages import get_package_share_directory
 import os
 from launch.substitutions import LaunchConfiguration
