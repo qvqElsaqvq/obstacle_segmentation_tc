@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/elsa/compile_tools/CLion-2024.1.1/clion-2024.1.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation -B /home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/sentry111/CLion-2024.2.1/clion-2024.2.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation -B /home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-
 -- The C compiler identification is GNU 11.4.0
 -- The CXX compiler identification is GNU 11.4.0
 -- Detecting C compiler ABI info
@@ -11,31 +11,27 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
 -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
--- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
 -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
 -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
 -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
 -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
 -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
 -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
--- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
 -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
--- Found FastRTPS: /opt/ros/humble/share  
+-- Found FastRTPS: /opt/ros/humble/include  
 -- Using RMW implementation 'rmw_fastrtps_cpp' as default
 -- Looking for pthread.h
 -- Looking for pthread.h - found
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
--- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
--- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
--- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
--- Found Eigen3: TRUE (found version "3.3.4") 
--- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
 -- Checking for module 'eigen3'
---   Found eigen3, version 3.3.4
+--   Found eigen3, version 3.4.0
 -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
 -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
 -- Checking for module 'flann'
@@ -77,7 +73,10 @@
 -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
 -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
 -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
-CMake Warning (dev) at CMakeLists.txt:15 (find_package):
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+CMake Warning (dev) at CMakeLists.txt:14 (find_package):
   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
   command to set the policy and suppress this warning.
@@ -101,4 +100,4 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Added test 'xmllint' to check XML markup files
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-
+-- Build files have been written to: /home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-

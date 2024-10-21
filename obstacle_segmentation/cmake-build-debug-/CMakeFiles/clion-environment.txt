@@ -1,4 +1,4 @@
-ToolSet: 1.0 (local)Ninja: 1.11.1@/home/elsa/compile_tools/CLion-2024.1.1/clion-2024.1.1/bin/ninja/linux/x64/ninja
+ToolSet: 1.0 (local)Ninja: 1.12.0@/home/sentry111/CLion-2024.2.1/clion-2024.2.1/bin/ninja/linux/x64/ninja
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=/home/elsa/compile_tools/CLion-2024.1.1/clion-2024.1.1/bin/ninja/linux/x64/ninja
+Options:-DCMAKE_MAKE_PROGRAM=/home/sentry111/CLion-2024.2.1/clion-2024.2.1/bin/ninja/linux/x64/ninja

@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/install_manifest.txt")
+set(install_manifest "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

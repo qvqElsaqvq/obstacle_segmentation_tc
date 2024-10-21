@@ -1,4 +1,4 @@
-# Install script for directory: /home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation
+# Install script for directory: /home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/obstacle_segmentation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/obstacle_segmentation")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/obstacle_segmentation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/obstacle_segmentation")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,7 +55,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation/environment" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation/environment" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,42 +63,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation/environment" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation/environment" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_index/share/ament_index/resource_index/packages/obstacle_segmentation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_index/share/ament_index/resource_index/packages/obstacle_segmentation")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation/cmake" TYPE FILE FILES
-    "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_core/obstacle_segmentationConfig.cmake"
-    "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_core/obstacle_segmentationConfig-version.cmake"
+    "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_core/obstacle_segmentationConfig.cmake"
+    "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/ament_cmake_core/obstacle_segmentationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE FILE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -108,7 +108,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/obstacle_segmentation/obstacle_segmentation_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/obstacle_segmentation" TYPE EXECUTABLE FILES "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/obstacle_segmentation_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/obstacle_segmentation" TYPE EXECUTABLE FILES "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/obstacle_segmentation_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/obstacle_segmentation/obstacle_segmentation_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/obstacle_segmentation/obstacle_segmentation_node")
     file(RPATH_CHANGE
@@ -123,8 +123,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstacle_segmentation" TYPE DIRECTORY FILES
-    "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/yaml"
-    "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/launch"
+    "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/yaml"
+    "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/launch"
     )
 endif()
 
@@ -136,5 +136,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/elsa/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sentry111/licang_ws/src/licang/obstacle_segmentation_tc/obstacle_segmentation/cmake-build-debug-/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
