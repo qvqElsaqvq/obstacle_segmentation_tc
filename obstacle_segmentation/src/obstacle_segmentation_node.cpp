@@ -29,6 +29,8 @@ public:
         this->declare_parameter("obstacle_range_x_max", 2.0);
         this->declare_parameter("obstacle_range_y_min", 0.5);
         this->declare_parameter("obstacle_range_y_max", 2.0);
+        this->declare_parameter("obstacle_range_z_min", -0.5);
+        this->declare_parameter("obstacle_range_z_max", 2.0);
         this->declare_parameter("point_frame", "livox");
         this->declare_parameter("use_downsample", true);
 
@@ -48,6 +50,8 @@ public:
         this->get_parameter("obstacle_range_x_max", obstacle_range_x_max_);
         this->get_parameter("obstacle_range_y_min", obstacle_range_y_min_);
         this->get_parameter("obstacle_range_y_max", obstacle_range_y_max_);
+        this->get_parameter("obstacle_range_y_min", obstacle_range_z_min_);
+        this->get_parameter("obstacle_range_y_max", obstacle_range_z_max_);
         this->get_parameter("point_frame", point_frame_);
         this->get_parameter("use_downsample", use_downsample_);
 
@@ -74,6 +78,8 @@ private:
     float obstacle_range_x_max_;
     float obstacle_range_y_min_;
     float obstacle_range_y_max_;
+    float obstacle_range_z_min_;
+    float obstacle_range_z_max_;
     bool use_downsample_;
     rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr input_cloud_sub_;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr output_cloud_pub_;
@@ -114,7 +120,8 @@ private:
         for (long i = 0; i < cloud->points.size(); i++)
         {
 
-            if (cloud->points[i].x > obstacle_range_x_min_ && cloud->points[i].x < obstacle_range_x_max_ && cloud->points[i].y > obstacle_range_y_min_ && cloud->points[i].y < obstacle_range_y_max_)
+            if (cloud->points[i].x > obstacle_range_x_min_ && cloud->points[i].x < obstacle_range_x_max_
+                && cloud->points[i].y > obstacle_range_y_min_ && cloud->points[i].y < obstacle_range_y_max_)
             {
                 continue;
             }
